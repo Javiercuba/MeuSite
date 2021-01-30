@@ -17,24 +17,25 @@ h6 {
     font-family: 'EB Garamond', serif;
     font-weight: 600;
     font-style: italic;
-    color: #121518;
+    color: #32729c;
 }
 
 a {
-    color: #454545;
+    color: #ffffff;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #aa9166;
+    color: #f1ede5;
     outline: none;
     text-decoration: none;
 }
 
 .btn:focus {
     box-shadow: none;
+   
 }
 
 .wrapper {
@@ -49,7 +50,7 @@ a:focus {
     position: fixed;
     display: none;
     background: #aa9166;
-    color: #121518;
+    color: #004386;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -63,11 +64,12 @@ a:focus {
 
 .back-to-top:hover {
     color: #aa9166;
-    background: #121518;
+    background:  #004386;
 }
 
 .back-to-top i {
     padding-top: 10px;
+    border-radius: 10px;
 }
 
 
@@ -77,7 +79,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 10%;
-    background: #000000;
+    background: #4d8be7;
 }
 
 .top-bar .logo {
@@ -88,7 +90,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: 0;
-    color: #aa9166;
+    color:  #004386;
     font-size: 75px;
     line-height: 55px;
     font-weight: 200;
@@ -189,7 +191,7 @@ a:focus {
     top: 0;
     width: 100%;
     padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px rgba(104, 74, 74, 0.3);
     z-index: 999;
 }
 
@@ -221,12 +223,12 @@ a:focus {
 
 .nav-bar .btn {
     color: #ffffff;
-    border: 2px solid #aa9166;
+    border: 2px solid #837357;
     border-radius: 0;
 }
 
 .nav-bar .btn:hover {
-    background: #aa9166;
+    background: #fffaf1;
 }
 
 @media (min-width: 992px) {
@@ -240,7 +242,7 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #121518 !important;
+        background: #004386 !important;
     }
     
     .nav-bar .navbar-brand {
@@ -258,7 +260,7 @@ a:focus {
     .nav-bar,
     .nav-bar .navbar {
         padding: 3px 0;
-        background: #121518 !important;
+        background: #111416 !important;
     }
     
     .nav-bar a.nav-link {
@@ -342,14 +344,14 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #aa9166;
-    background: #121518;
+    background: #040405;
     border: 2px solid #aa9166;
     border-radius: 0;
     transition: .3s;
 }
 
 .carousel .carousel-caption .btn:hover {
-    color: #121518;
+    color: #0d1013;
     background: #aa9166;
 }
 
@@ -599,7 +601,7 @@ a:focus {
     position: relative;
     height: 100%;
     padding: 10px;
-    background: #121518;
+    background:  #004386;
 }
 
 .about .about-img img {
@@ -973,12 +975,12 @@ a:focus {
     color: #aa9166;
     border: 2px solid #aa9166;
     border-radius: 0;
-    background: #121518;
+    background: #010202;
     transition: .3s;
 }
 
 .faqs a.btn:hover {
-    color: #121518;
+    color: #0e1216;
     background: #aa9166;
 }
 
@@ -1248,7 +1250,7 @@ a:focus {
 
 .timeline .timeline-container .timeline-content {
     padding: 30px;
-    background: #121518;
+    background: #000000;
     position: relative;
     border-right: 5px solid #aa9166;
 }
@@ -1342,7 +1344,7 @@ a:focus {
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 0;
-    background: #121518;
+    background: #000000;
     border: 2px solid #aa9166;
     transition: .3s;
 }
@@ -1531,14 +1533,14 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #aa9166;
-    background: #121518;
+    background: #000000;
     border: 2px solid #aa9166;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #121518;
+    color: #161b20;
     background: #aa9166;
 }
 

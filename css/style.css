@@ -23,14 +23,14 @@ h6 {
 }
 
 a {
-    color: #ffffff;
+    color: #e6e3e3;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #ffffff;
+    color: #f8efef;
     outline: none;
     text-decoration: none;
 }
@@ -131,7 +131,7 @@ a:focus {
 }
 
 .top-bar .text p {
-    color: #ffffff;
+    color: #faf5f5;
     font-size: 13px;
     margin: 0;
 }
@@ -151,7 +151,7 @@ a:focus {
     height: 100%;
     font-size: 22px;
     color: #ffffff;
-    border-right: 1px solid rgba(255, 255, 255, .15);
+    border-right: 1px solid rgba(252, 252, 252, 0.322);
 }
 
 .top-bar .social a:first-child {
@@ -208,12 +208,12 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #ffffff4b;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #aa9166;
+    color: #fdfdfdfb;
     transition: none;
 }
 
@@ -226,12 +226,12 @@ a:focus {
 
 .nav-bar .btn {
     color: #ffffff;
-    border: 2px solid #3b3428;
+    border: 2px solid #52442e;
     border-radius: 0;
 }
 
 .nav-bar .btn:hover {
-    background: #fffaf1;
+    background: #dac296;
 }
 
 @media (min-width: 992px) {

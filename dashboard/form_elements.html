@@ -358,18 +358,18 @@
                         <hr>
                         <div class="row">
                             <div class="col-md-6">
-                                <form>
+                                <form method="POST" action="./biografia.php">
                                     <div class="form-group">
                                         <label class="form-label">Minibiografia</label>
-                                        <input type="text" class="form-control" placeholder="Text">
+                                        <input type="text" class="form-control" name="minibiografia" placeholder="Text">
                                     </div>
                                     
                                     <div class="form-group">
                                         <label class="form-label" for="exampleFormControlTextarea1">Biografia</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <textarea class="form-control" name="biografia" id="exampleFormControlTextarea1" rows="3"></textarea>
                                    
                                     </div>
-                                 <button type="submit" class="btn  btn-primary">Atualizar</button>
+                                 <button type="submit" value="Enviar" class="btn  btn-primary">Atualizar</button>
                               
                                 </form>
                             </div>

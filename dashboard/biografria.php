@@ -2,7 +2,8 @@
 
 
 
- $minibiografia = addslashes($_POST['minibiografia']);
- $biografia = addslashes($_POST['biografia']);
+ $minibiografia = $_POST['minibiografia'];
+ echo("$minibiografia");
+ $biografia = $_POST['biografia'];
  
 ?>

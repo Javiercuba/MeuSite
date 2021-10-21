@@ -502,6 +502,36 @@ a:hover {
     padding: 12px 0;
 }
 
+.social-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.social-links a {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.social-links a:hover {
+    background: #0078ff;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1614,40 +1644,4 @@ a:hover {
 
 .widget-tags ul li a {
     color: #fff;
-}
-
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-
-footer {
-    text-align: center;
-    color: #fff;
-    padding: 25px 0;
-    background: #0062d3;
-}
-
-footer .copyright {
-    margin-bottom: .3rem;
-}
-
-footer .credits {
-    margin-bottom: 0;
-}
-
-footer .credits a {
-    color: #fff;
-}
-
-
-/*--------------------------------------------------------------
-# Linkedin
---------------------------------------------------------------*/
-
-linkedin {
-    text-align: center;
-    color: #fff;
-    padding: 25px 0;
-    background: #0062d3;
 }
